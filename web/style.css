@@ -1,0 +1,10 @@
+.cabeçalho{
+        position: fixed;
+    top: 0;
+    z-index: 9999;
+    display: inline-block;
+    width: 100%;
+    padding: 14px 30px;
+    animation: all 0.2s;
+    height: 55px;
+}
