@@ -9,9 +9,92 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" class="__meteor-css__" href="https://d14xs1qewsqjcd.cloudfront.net/4c850f0035db18504e3cd63775f8a9b722960b73.css?meteor_css_resource=true">
+        <link rel="stylesheet" type="text/css" class="__meteor-css__" href="https://d14xs1qewsqjcd.cloudfront.net/534288c74c61316cf05cd2367fc63ede62913788.css?meteor_css_resource=true">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
     </head>
     <body>
-        <div>TODO write content teste de commit</div>
+        <div class="container-header wow fadeInUp animated" style="visibility: visible; animation-name: all;">
+      <div class="logo-company">
+        <a href="/">
+          <img id="logo-meteor-home" src="https://d14xs1qewsqjcd.cloudfront.net/assets/logo.svg" alt="Meteor Home Page">
+        </a>
+      </div>
+          <nav id="primary-menu">
+    <a id="developers" href="/developers" class="menu-main has-sub-menu" data-letters="Developers">
+      <span>Developers</span>
+      <ul class="sub-menu-secondary">
+        <li><a class="menu-child" href="/install">Install</a></li>
+        <li><a class="menu-child" href="/tutorials">Tutorials</a></li>
+        <li><a class="menu-child" href="http://guide.meteor.com/">Guide</a></li>
+        <li><a class="menu-child" href="http://docs.meteor.com/#/full/">Documentation</a></li>
+        <li><a class="menu-child" href="https://forums.meteor.com/">Forums</a></li>
+        <li><a class="menu-child" href="http://meteor.meetup.com/">Meetups</a></li>
+
+        <!-- <li><a class="menu-child" href="{{pathFor 'articles'}}">Articles</a></li> -->
+        <!-- <li><a class="menu-child" href="{{pathFor 'speakerKit'}}">Speaker Kit</a></li> -->
+      </ul>
+    </a>
+    <a id="showcase" href="/showcase" class="menu-main" data-letters="Showcase">
+      <span>Showcase</span>
+    </a>
+    <a id="Solutions" href="/solutions" class="menu-main has-sub-menu" data-letters="Solutions">
+      <span>Solutions</span>
+      <ul class="sub-menu-secondary">
+        <li><a class="menu-child" href="/hosting">Meteor Hosting</a></li>
+        <li><a class="menu-child" href="/developer-support">Developer Support</a></li>
+         <li><a class="menu-child" href="/pricing">Pricing</a></li>       
+        <li><a class="menu-child" href="/partners">Official Partners</a></li>
+        <li><a class="menu-child" href="/submit-rfp">Submit RFP</a></li>
+        <li><a class="menu-child" href="/become-a-partner">Become a Partner</a></li>
+
+
+      </ul>
+      </a>
+
+    <a id="Company" href="/company" class="menu-main has-sub-menu" data-letters="Company">
+      <span>Company</span>
+      <ul class="sub-menu-secondary">
+        <li><a class="menu-child" href="https://blog.meteor.com/">Blog</a></li>
+        <li><a class="menu-child" href="careers">Careers</a></li>
+        <li><a class="menu-child" href="/culture">Culture</a></li>
+        <li><a class="menu-child" href="/press">Press</a></li>
+
+      </ul>
+    </a>
+  </nav>
+      <div class="secondary-nav">
+        <nav>
+          
+            <a id="login" class="menu-secondary">Login</a>
+            <a id="register" href="/sign-up" class="menu-secondary">Register</a>
+          
+        </nav>
+        <div id="login-popup" class="hidden">
+    <div class="form-login">
+      <h3>Login</h3>
+      <form>
+        <input type="text" name="username" placeholder="Username / Email">
+        <input type="password" name="password" placeholder="Password">
+        <span class="error-account"></span>
+        <button type="submit" class="action-login btn-primary-meteor hvr-rectangle-out-bg">Login</button>
+      </form>
+      <div class="action-form-login">
+        <a data-url="resetPassword" href="/reset-password"><i class="icon-icon-next-short"></i><span>Forgot your Password?</span></a>
+        <a data-url="signUp" href="/sign-up"><i class="icon-icon-next-short"></i><span>Register</span></a>
+      </div>
+    </div>
+  </div>
+      </div>
+      <div>
+        <button type="button" class="icon-custom-menu  fadeInLeft is-closed" data-toggle="offcanvas">
+          <span class="icon-top"></span>
+          <span class="icon-middle"></span>
+          <span class="icon-bottom"></span>
+        </button>
+      </div>
+    </div>
         <img src="bg-header-star.jpg" alt="meteor home">
         
     </body>
