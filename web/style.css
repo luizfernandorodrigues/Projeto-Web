@@ -184,3 +184,28 @@
     margin: 40px auto 30px;
     border-top: 1px solid #d5d8df;
 }
+.why{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.titleWhy{
+    text-transform: uppercase;
+    margin: 20px 0 30px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-family: monospace;
+}
+.titleWhy h3:after {
+    content: '';
+    width: 65px;
+    display: block;
+    height: 1px;
+    border-bottom: 2px solid #de4f4f;
+    text-align: center;
+    margin: 10px auto 0;
+}
