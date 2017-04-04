@@ -203,24 +203,38 @@
     margin: 0 auto;
     display: block;
 }
-.itens .items-object {
+#itens {
+    display: inline-block;
+    max-width: 940px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#itens .items-object {
     text-align: center;
     padding: 0 30px;
     float: left;
     position: relative;
-    width: 33.33333%;
+    width: 25%;
 }
-.itens .itens-left {
-    text-align: center;
-    padding: 0 30px;
-    float: left;
-    position: relative;
-    width: 33.33333%;
-}
-.itens .itens-left span.icone {
+#itens #itens-left span.icone {
     display: inline-block;
     width: 100%;
     margin-bottom: 25px;
+}
+
+#itens .items-object h3 {
+    font-family: 'ProximaNova-Bold';
+    font-size: 18px;
+    line-height: 20px;
+    min-height: 40px;
+    letter-spacing: 1px;
+    margin: 0 auto 20px;
+    width: 247px;
+    color: #1f2128;
+}
+#itens .items-object span {
+    display: inline-block;
 }
 .titleWhy h3{
     font-family: 'ProximaNovaT-Thin';
@@ -252,13 +266,6 @@ div{
         display: inline-block
     }
 }
-#itens{
-    display: inline-block;
-    max-width: 940px;
-    width: 100%;
-    overflow: hidden;
-    margin: 0 auto
-}
 .element.style{
     visibility: visible;
     animation-name: fadeIn;
@@ -269,33 +276,6 @@ div{
         width: 100%;
         margin-bottom: 25px;
     }
-}
-#allItems-object .items-object {
-    text-align: center;
-    padding: 0 30px;
-    float: left;
-    position: relative;
-    width: 33.33333%;
-}
-#itens-objeto{
-    display: inline-block;
-    max-width: 940px;
-    width: 100%;
-    overflow: hidden;
-    margin: 0 auto;
-}
-#tems .items-objeto h3 {
-    font-family: 'ProximaNova-Bold';
-    font-size: 18px;
-    line-height: 20px;
-    min-height: 40px;
-    letter-spacing: 1px;
-    margin: 0 auto 20px;
-    width: 247px;
-    color: #1f2128;
-}
-#itens .items-objeto span{
-    display: inline-block;
 }
 @media (max-width: 768px){
     .linha {
@@ -393,4 +373,14 @@ ul{
 }
 .titulo-companhias.cor-branco h3{
     color: #fff;
+}
+@media(max-width: 795px){
+    .primary-menu{
+        visibility: collapse;
+    }
+}
+@media(max-width: 795px){
+    .secondary-nav{
+        visibility: collapse;
+    }
 }
