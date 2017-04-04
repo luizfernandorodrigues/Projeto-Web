@@ -259,5 +259,138 @@ div{
     overflow: hidden;
     margin: 0 auto
 }
-
-
+.element.style{
+    visibility: visible;
+    animation-name: fadeIn;
+}
+@media (max-width: 768px){
+    #allItems-object .items-object {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+#allItems-object .items-object {
+    text-align: center;
+    padding: 0 30px;
+    float: left;
+    position: relative;
+    width: 33.33333%;
+}
+#itens-objeto{
+    display: inline-block;
+    max-width: 940px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#tems .items-objeto h3 {
+    font-family: 'ProximaNova-Bold';
+    font-size: 18px;
+    line-height: 20px;
+    min-height: 40px;
+    letter-spacing: 1px;
+    margin: 0 auto 20px;
+    width: 247px;
+    color: #1f2128;
+}
+#itens .items-objeto span{
+    display: inline-block;
+}
+@media (max-width: 768px){
+    .linha {
+        max-width: 200px;
+        margin: 15px auto 10px;
+    }
+}
+.top-companias ul li.mazda img {
+    width: 45%;
+    margin-left: 20px;
+}
+.titulo-companhias{
+    margin: 20px 0 30px;
+    padding-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.top-companias ul{
+    max-width: 600px;
+    width: 100%;
+    margin: 15px auto 0px;
+    display: block;
+}
+.titulo-companhias h3{
+    font-family: 'ProximaNovaT-Thin';
+    font-size: 20px;
+    color: #1f2128;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.titulo-companhias .titleAll h3:after {
+    content: '';
+    width: 65px;
+    display: block;
+    height: 1px;
+    border-bottom: 2px solid #de4f4f;
+    text-align: center;
+    margin: 10px auto 0;
+}
+.top-companias ul li.mazda{
+    text-align: left
+}
+.top-companias ul li{
+    width: 120px;
+    float: left;
+}
+.top-companias img{
+    max-width: 95%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.top-companias ul li.ikea{
+    text-align: left;
+}
+.top-companias ul li.honeywell img{
+    margin-top: 15px;
+}
+.top-companias ul li.qualco{
+    width: 140px;
+    text-align: right;
+}
+.top-companias ul li.qualco img{
+    margin-top: 15px;
+    width: 80%;
+}
+.top-companias ul li.tour{
+    width: 75px;
+    text-align: right;
+}
+.top-companias ul li.tour img{
+    width: 60%;
+}
+ul{
+    list-style: none;
+}
+.opensource{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#animacao-meteor{
+    position: relative;
+}
+#animacao-meteor #construir-meteor{
+    display: inline-block;
+    width: 100%;
+    min-height: 465px;
+    background-color: #222736;
+    background-image: url(bg-gallary.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.titulo-companhias.cor-branco h3{
+    color: #fff;
+}
