@@ -502,3 +502,64 @@ ul{
     text-decoration: none;
     margin-top: 13px; 
 }
+#construir-meteor {
+    position: relative;
+}
+#animacao-meteor {
+    position: relative;
+}
+@media (max-width: 992px){
+    #animacao-meteor #construir-meteor .media-object {
+        width: 98%;
+    }
+}
+#animacao-meteor #construir-meteor .media-object {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+#animacao-meteor #construir-meteor .media-object .media-body {
+    display: inline-block;
+    float: right;
+    width: 45%;
+}
+.media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+.media-heading {
+    margin: 0 0 5px;
+}
+#animacao-meteor #construir-meteor .media-object .media-body .media-heading span {
+    font-style: italic;
+    font-size: 48px;
+    font-family: 'ProximaNova-Light';
+    color: #fff;
+    letter-spacing: 2px;
+}
+#animacao-meteor #construir-meteor .media-object .media-body .link-media {
+    font-size: 13px;
+    color: #de4f4f;
+    text-decoration: none;
+    margin: 15px 0 10px;
+    display: inline-block;
+}
+#animacao-meteor #construir-meteor .media-object .media-body .content-media span {
+    color: #a1c0d7;
+    font-family: 'ProximaNova-Light';
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+}
+#animacao-meteor #construir-meteor .media-object .media-left {
+    padding-right: 55px;
+    display: inline-block;
+    float: left;
+    width: calc(55% - 55px);
+}
+@media (max-width: 992px){
+    #animacao-meteor #construir-meteor .media-object .media-left {
+        padding-right: 30px;
+        width: calc(50% - 30px);
+    }
+}
