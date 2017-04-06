@@ -563,3 +563,101 @@ ul{
         width: calc(50% - 30px);
     }
 }
+@media (max-width: 768px){
+    footer {
+        background-size: cover;
+        padding: 0px 0px 25px;
+    }
+}
+footer {
+    background-image: url(bg-footer.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 10px;
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0 25px;
+}
+@media (max-width: 992px){
+    footer .container {
+        width: 100%;
+    }
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (max-width: 768px){
+    #alllist-footer {
+        display: inline-block;
+    }
+}
+@media (max-width: 768px){
+    #alllist-footer .list-footer:first-child {
+        width: 100%;
+    }
+}
+@media (max-width: 768px){
+    #alllist-footer .list-footer {
+        width: 100%;
+        text-align: center;
+    }
+}
+#alllist-footer .list-footer img {
+    width: 120px;
+}
+#alllist-footer .des {
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+#alllist-footer .list-footer .des {
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#alllist-footer .des a {
+    display: inline;
+    color: #de4f4f;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#alllist-footer .list-footer a {
+    text-decoration: none;
+    color: #1f2128;
+    font-weight: bold;
+    font-family: 'ProximaNovaT-Thin';
+    display: inline-block;
+    font-size: 13px;
+    width: 100%;
+    line-height: 20px;
+}
+#alllist-footer .list-footer {
+    width: 20%;
+}
+@media (max-width: 768px){
+    #alllist-footer .list-footer {
+        width: 100%;
+        text-align: center;
+    }
+}
+#alllist-footer .list-footer span a{
+    display: inline;
+    color: #de4f4f;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#alllist-footer {
+    display: flex;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+#alllist-footer .list-footer:first-child {
+    width: 30%;
+}
