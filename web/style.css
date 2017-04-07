@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .fundo{
     display:inline-block;
     width:100%;
@@ -40,7 +43,7 @@
     display: inline-block;
     float: right;
     line-height: 30px;
-    margin-right: 100px;
+    margin-right: 60px;
     top: 7px;
 }
 .segundo-nav{
@@ -76,56 +79,110 @@
     line-height:22px;
     font-family:'ProximaNovaT-Thin';
 }
-#banner-home .action-banner{
-    display:block;
-    max-width:404px;
-    width:100%;
-    margin:25px auto
+@media (max-width: 480px)
+{
+    #banner-home .action-banner {
+        max-width: 320px;
+    }
 }
-#banner-home .action-banner .btn{
-    width:180px;
-    position:relative;
-    z-index:9;
-    display:inline-block;
-    text-align:center;
-    font-size:13px;
-    font-family:'ProximaNova-Bold';
-    text-decoration:none;
-    color:#fff;
-    text-transform:uppercase;
-    height:50px;
-    line-height:50px;
-    border:1px solid #fff;
-    margin-right:20px
+#banner-home .action-banner {
+    display: block;
+    max-width: 404px;
+    width: 100%;
+    margin: 25px auto;
 }
-#banner-home .action-banner .btn span{
-    display:inline-block;
-    text-transform:capitalize;
-    width:100%;
-    color:#fff;
-    font-size:11px;
-    font-family:'ProximaNovaT-Thin'
+@media (max-width: 480px)
+{
+    .action-banner {
+        max-width: 300px;
+    }
 }
-#banner-home .action-banner #mais-recursos{
-    float:left;
-    margin:0
+.action-banner {
+    display: block;
+    max-width: 404px;
+    width: 100%;
+    min-height: 50px;
+    margin: 25px auto;
 }
-#banner-home .action-banner #instalar{
-    background-color:#de4f4f;
-    color:#fff;
-    float:left;
-    border:none;
-    height: 60px;
-}
-#banner-home #mais-recursos{
-    color:#fff;
-    height: 60px;
-    border: 1px solid white;
-}
-#banner-home #mais-recursos:hover{
+#banner-home #more-features:hover{
     background-color: #de4f4f;
 }
-
+@media (max-width: 480px)
+{
+    #banner-home .action-banner #installnow {
+        margin: 0px 0px 20px 0px;
+        float: none;
+    }
+}
+#banner-home .action-banner #installnow {
+    background-color: #de4f4f;
+    color: #fff;
+    float: left;
+    border: none;
+    width: 180px;
+    padding: 14px 0 6px;
+    line-height: 10px;
+    height: 32px;
+}
+@media (max-width: 550px){
+    #banner-home .action-banner #installnow {
+        width: 200px;
+        float: none;
+        margin: 0px 0px 20px 0px;
+    }
+}
+@media (max-width: 550px){
+    #banner-home .action-banner #more-features {
+        float: none;
+        width: 200px;
+    }
+}
+#banner-home .action-banner .btn-custom {
+    width: 180px;
+    position: relative;
+    z-index: 9;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'ProximaNova-Bold';
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #fff;
+    margin-right: 20px;
+}
+.action-banner .btn-custom {
+    width: 230px;
+    position: relative;
+    z-index: 9;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'ProximaNova-Light';
+    text-decoration: none;
+    color: #de4f4f;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #de4f4f;
+    margin-right: 20px;
+}
+#banner-home .action-banner .btn-custom span {
+    display: inline-block;
+    text-transform: capitalize;
+    width: 100%;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'ProximaNovaT-Thin';
+}
+#banner-home span {
+    font-size: 15px;
+    color: #bac1d7;
+    line-height: 22px;
+    font-family: 'ProximaNovaT-Thin';
+}
 
 .integra h5 {
     font-size: 16px;
@@ -374,12 +431,12 @@ ul{
 .titulo-companhias.cor-branco h3{
     color: #fff;
 }
-@media(max-width: 795px){
+@media(max-width: 840px){
     .primary-menu{
         visibility: collapse;
     }
 }
-@media(max-width: 795px){
+@media(max-width: 840px){
     .secondary-nav{
         visibility: collapse;
     }
@@ -653,11 +710,107 @@ footer {
     margin-top: 10px;
 }
 #alllist-footer {
-    display: flex;
+    display: flex;  
     padding: 0 15px;
     width: 100%;
     margin: 0 auto;
 }
 #alllist-footer .list-footer:first-child {
     width: 30%;
+}
+@media(max-width: 480px){
+    #banner-home h3{
+        font-size: 30px;
+        border-top: 5px;
+    }
+}
+@media(max-width: 480px){
+    #banner-home h6{
+        font-size: 20px;
+        line-height: 50px;
+    }
+}
+@media(max-width: 480px){
+    #banner-home .action-banner #instalar{
+        margin: 0px 0px 20px 0px;
+        float: none;
+    }
+}
+@media(max-width: 480px){
+    #banner-home .action-banner #mais-recursos{
+        width: 200px;
+        float: none;
+    }
+}
+.banner .icon-custom-menu {
+    right: 30px;
+    top: 11px;
+}
+@media (max-width: 840px){
+    .banner .icon-custom-menu {
+        display: block;
+    }
+}
+.icon-custom-menu {
+    background: transparent;
+    display: none;
+    height: 32px;
+    right: 20px;
+    border: none;
+    margin-left: 15px;
+    position: fixed;
+    top: 10px;
+    width: 32px;
+    z-index: 999;
+}
+.icon-custom-menu.is-closed:before {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    content: '';
+    display: block;
+    font-size: 14px;
+    line-height: 32px;
+    -ms-opacity: 0;
+    opacity: 0;
+    text-align: center;
+    width: 100px;
+}
+.icon-custom-menu.is-closed .icon-top, .icon-custom-menu.is-closed .icon-middle,
+.icon-custom-menu.is-closed .icon-bottom, .icon-custom-menu.is-open .icon-top, 
+.icon-custom-menu.is-open .icon-middle, .icon-custom-menu.is-open .icon-bottom {
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.icon-bottom, .icon-middle, .icon-top {
+    background-color: #b1b3be;
+}
+.icon-custom-menu.is-closed .icon-top {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    top: 5px;
+}
+.icon-custom-menu.is-closed .icon-middle {
+    margin-top: -2px;
+    top: 50%;
+}
+.icon-custom-menu.is-closed .icon-bottom {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    bottom: 5px;
 }
